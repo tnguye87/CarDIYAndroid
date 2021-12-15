@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.gmu.cs477.fall2020.finalproject_tnguye87">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".CarView"> </activity>
+        <activity android:name=".ViewAllTutorial"> </activity>
+        <activity android:name=".SingleTutorialView"> </activity>
+        <activity android:name=".AddNewCar"> </activity>
+        <activity android:name=".ViewMyGarage"> </activity>
+        <activity android:name=".ViewOneCarInfo"> </activity>
+        <activity android:name=".AddNewService"> </activity>
+        <activity android:name=".ViewAllServiceOfACar"> </activity>
+        <activity android:name=".ViewOneServiceOfACar"> </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
